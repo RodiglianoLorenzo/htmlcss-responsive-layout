@@ -1,5 +1,5 @@
 /* Soluzione qui */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     #topbar{
         justify-content: left;
         font-size: 1em;
@@ -37,4 +37,38 @@
     }
     
     
+}
+
+@media screen and (min-width: 993px) {
+    .recipe-info{
+        padding: 10px;
+    }
+
+    .recipe-name{
+        font-size: 2.5em;
+    }
+    .quick-notes ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .recipe-card{
+        display: flex;
+        gap: 20px;
+    }
+    .recipe-video{
+        width: 40vw;
+        height: 50vh;
+    }
+
+    
+      .social-networks .label{
+        display: inline;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+    }
 }
