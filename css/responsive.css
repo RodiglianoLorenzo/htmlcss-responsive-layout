@@ -17,8 +17,24 @@
         font-size: 2em;
     }
 
-    ul{
-        display: flex;
-        
+    .quick-notes ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
+    .social-networks .btn{
+        width: 230px;
+    }
+
+    .ads{
+        display: block;
+    }
+    .clearfix img{
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        max-width: 300px;
+    }
+    
+    
 }
